@@ -1,0 +1,66 @@
+<!-- Students: Our work lies in the js file. -->
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Yiannis Trivia Game</title>
+
+    <!-- Our CSS style sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+
+
+    <div id="Trivia">
+
+      <div id="title">Totally Trivial Trivia!</div>
+
+
+      <div id="timer"><p>Time Remaining: <span id="time">60</span> seconds</p></div>
+
+      <!-- Div containing our stopwatch controls -->
+      <div id="questions">
+      </div>
+
+    </div>        
+
+    <div id="result">
+      <div hidden id="wrong">
+          <p id="wrongTitle"></p>
+          <p id="answer"></p>
+          <img id="image" src=""></img>
+      </div>
+
+      <div hidden id="right">
+          <p id="rightTitle"></p>
+          <image id="image"></img>
+      </div>
+    </div>
+
+    <div id="end" hidden>
+        <div>
+            <result id="endTitle"></result>
+            <result id="correct"></result>
+            <result id="mistakes"></result>
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+  </body>
+
+</html>
+
